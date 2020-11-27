@@ -32,29 +32,3 @@ class user_powerups:
         self.speed_cooldown = 1
         self.speed_powerup = False
 
-
-"""
-
-        
-class user_powerups:
-    def __init__(self, powerup):
-        self.powerup = powerup
-        self.freeze_powerup = False
-        self.freeze_cooldown = 0
-
-    def check_cooldowns(self, enemies):
-        print(self.freeze_cooldown)
-        if self.freeze_cooldown >= 300: self.freeze_cooldown = 0
-        elif self.freeze_cooldown > 0:
-            if self.freeze_cooldown >= 200:
-                for enemy in enemies:
-                    enemy.velocity += 1.5
-            self.freeze_cooldown += 1
-
-    def start_freeze_powerup(self, enemies):
-        if self.powerup == "freeze":
-            for enemy in enemies:
-                if enemy.velocity != 0: enemy.velocity -= 1.5
-        
-        
-"""
