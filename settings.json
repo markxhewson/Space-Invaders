@@ -1,0 +1,49 @@
+{
+   "gameName": "Space Invaders",
+   "gameAuthor": "Marcus Hewson",
+
+   "graphicsSettings": {
+	"backgroundLocation": "graphics/background.jpg"
+   },
+   
+    "gameSettings": {
+        "borderWidth": 750,
+        "borderHeight": 750,
+        "maxFramerate": 60,
+        "defaultLives": 5,
+        "waveIncrease": 15
+    },
+	
+    "screenMessages": {
+	    "startMenu": "Start the game by clicking any button on your mouse.",
+	    "gameEndMessage": "Game is over.",
+	    "gameInformation": [
+		    "200; - You start with 5 lives, you lose lives by enemies passing the line beneath you.",
+		    "215; - Once you run out of lives, you lose and have to restart the game at level 1.",
+			"230; - You gain +2 health for every kill on an invader.",
+			"245; - You lose -15 health for every hit an invader gets on you.",
+			"260; ",
+			"275; ABILITIES",
+			"295; - Abilities show on the top right side of the screen.",
+			"310; - You can either click the icon or the key associated with the ability.",
+			"325; ",
+			"340; FREEZE ABILITY",
+			"355;  - Activation Key: X. (10 SECOND COOLDOWN)",
+			"370;  - Freezes enemies for 4 seconds.",
+			"385; ",
+			"400; SPEED ABILITY",
+			"415;  - Activation Key: C. (15 SECOND COOLDOWN)",
+            "430;  - Speeds your character up for 8 seconds."
+	    ],
+        "gameEndInformation": [
+            "200; - It seems as though you have lost! Click anywhere to restart the game.",
+            "215; - Better luck next time! Enter `X` to exit the game."
+        ]
+    },
+
+    "entityValues": {
+        "laserSpeed": 10,
+        "userSpeed": 3,
+        "enemySpeed": 1.5
+    }
+}
